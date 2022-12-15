@@ -1,0 +1,53 @@
+.w{
+    background-color: #b09069;
+}
+.riga div:hover{
+    background-color: red!important;
+}
+.riga {
+    font-size: 0;
+    margin-left: 4rem;
+    
+  }
+  .riga div {
+    font-size: 1rem;
+    display: inline-block;
+    position: relative;
+    width: 70px;
+    height: 60px;
+    border: 1px solid black;
+  }
+  .riga div:first-child span:last-child{
+    position: absolute;
+    left: -17px;
+    top: 18px;
+  }
+  .riga div:last-child span:last-child{
+    position: absolute;
+    left: 73px;
+    top: 18px;
+  }
+  .riga:first-child div span:first-child{
+    position: absolute;
+    top:-20px;
+    left: 29px;
+  }
+  .riga:last-child div span:first-child{
+    position: absolute;
+    top: 63px;
+    left: 30px;
+  }
+  .riga:nth-child(even) div:nth-child(odd), .riga:nth-child(odd) div:nth-child(even) {
+    background-color: black;
+  }
+  .scacchiera{
+    position: absolute;
+    margin-top: 2em;
+    margin-left: 21em;
+  }
+  h2{
+    text-align: center;
+  }
+  span{
+    font-weight: bold;
+  }
